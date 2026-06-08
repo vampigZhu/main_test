@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:/Program Files \\(x86\\)/Microsoft Visual Studio/Installer/vswhere.exe\" -latest -property installationPath)",
+      "Bash(winget --version)",
+      "Bash(winget install *)",
+      "Bash(curl *)",
+      "Bash(C:/Users/zhu/Downloads/msys2-installer.exe install *)",
+      "Bash(C:/msys64/usr/bin/bash.exe *)",
+      "Bash(echo 'Server = https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/ucrt64/ *)",
+      "Read(//c/msys64/etc/pacman.d/**)"
+    ]
+  }
+}
