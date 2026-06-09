@@ -1,3 +1,4 @@
+//new   20260609
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -20,7 +21,7 @@ int main() {
     int guess = 0;
     int count = 0;
 
-    printf("=== 猜数字游戏 ===\n");
+    printf("=== 猜数字de游戏 ===\n");
     printf("我已经想好了一个 1~100 之间的数字，来猜猜看吧！\n");
 
     while (1) {

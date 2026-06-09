@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(PYTHONUTF8=1 pip install *)",
+      "Bash(python *)",
+      "Bash(PYTHONUTF8=1 python *)",
+      "Bash(powershell *)",
+      "Bash(pip cache *)",
+      "Bash(npm cache *)"
+    ]
+  }
+}
